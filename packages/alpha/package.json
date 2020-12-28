@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "repository": "git@github.com:etc-tiago/lerna-semantic-versioning.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   }
 }
