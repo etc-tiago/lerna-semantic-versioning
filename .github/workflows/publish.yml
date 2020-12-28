@@ -13,8 +13,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      - run: |
+          git config --global user.email "tiago@etc.digital"
+          git config --global user.name "Tiago Souza"
       - run: yarn install --silent --frozen-lockfile
-      - run: yarn lerna publish -y
+      - run: lerna publish -y
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           GH_TOKEN: ${{secrets.GH_TOKEN}}
