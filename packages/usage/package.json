@@ -1,10 +1,10 @@
 {
   "name": "npm-test-package-usage-cccccccc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "git@github.com:etc-tiago/lerna-semantic-versioning.git",
   "dependencies": {
-    "npm-test-package-alpha-aaaaaaa": "^0.0.4",
-    "npm-test-package-beta-bbbbbbb": "^0.0.4"
+    "npm-test-package-alpha-aaaaaaa": "^0.0.5",
+    "npm-test-package-beta-bbbbbbb": "^0.0.5"
   },
   "publishConfig": {
     "access": "public"
