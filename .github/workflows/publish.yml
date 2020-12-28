@@ -1,8 +1,7 @@
 name: Publish Packages
 
 on:
-  push:
-    branches: [master]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,7 +20,6 @@ jobs:
           git config --global user.name "Tiago Souza"
       - run: yarn install --silent --frozen-lockfile
       - run: node npm.js
-      - run: npm whoami
-      - run: ./node_modules/.bin/lerna publish -y
+      - run: yarn run lerna publish from-git --yes
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}

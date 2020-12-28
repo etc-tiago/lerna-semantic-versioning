@@ -5,6 +5,12 @@
   "repository": "git@github.com:etc-tiago/lerna-semantic-versioning.git",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna": "lerna"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

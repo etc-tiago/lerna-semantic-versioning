@@ -4,6 +4,7 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "registry": "https://registry.npmjs.org/",
       "message": "chore(release): publish",
       "allowBranch": "master"
     }
