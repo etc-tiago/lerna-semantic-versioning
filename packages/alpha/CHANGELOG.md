@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/etc-tiago/lerna-semantic-versioning/compare/npm-test-package-alpha-aaaaaaa@0.0.8...npm-test-package-alpha-aaaaaaa@0.1.0) (2020-12-28)
+
+
+### Features
+
+* do something... ([ba96e03](https://github.com/etc-tiago/lerna-semantic-versioning/commit/ba96e03e22a6920433cb375df106bcf88a5e9856))
+* update something ([a6ee171](https://github.com/etc-tiago/lerna-semantic-versioning/commit/a6ee171a1586b4a125f26129ec6831d3ab7f08a7))
+
+
+
+
+
 ## 0.0.8 (2020-12-28)
 
 **Note:** Version bump only for package npm-test-package-alpha-aaaaaaa

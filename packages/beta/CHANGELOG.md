@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/alecap7/lerna-semantic-versioning-example/compare/npm-test-package-beta-bbbbbbb@0.0.8...npm-test-package-beta-bbbbbbb@0.0.9) (2020-12-28)
+
+**Note:** Version bump only for package npm-test-package-beta-bbbbbbb
+
+
+
+
+
 ## 0.0.8 (2020-12-28)
 
 **Note:** Version bump only for package npm-test-package-beta-bbbbbbb
