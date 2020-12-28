@@ -14,6 +14,9 @@ jobs:
         with:
           node-version: 14.x
       - run: |
+          npm set progress=false
+          npm set package-lock=false
+          npm set registry https://registry.npmjs.org/ && echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
           git config --global user.email "tiago@etc.digital"
           git config --global user.name "Tiago Souza"
       - run: yarn install --silent --frozen-lockfile
