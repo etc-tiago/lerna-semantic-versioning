@@ -1,6 +1,6 @@
 {
   "name": "@etc-tiago/beta",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "git@github.com:alecap7/lerna-semantic-versioning-example.git",
   "publishConfig": {
     "access": "public"
