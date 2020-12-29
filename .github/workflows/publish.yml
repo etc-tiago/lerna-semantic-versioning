@@ -23,6 +23,6 @@ jobs:
       - run: yarn install --silent --frozen-lockfile
       - run: node npm.js
      # - run: yarn run lerna publish from-git --yes
-      - run: yarn run lerna publish --yes --skip-git
+      - run: yarn run lerna publish --yes
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
