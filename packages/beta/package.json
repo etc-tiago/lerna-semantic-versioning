@@ -1,6 +1,6 @@
 {
   "name": "npm-test-package-beta-bbbbbbb",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "repository": "git@github.com:alecap7/lerna-semantic-versioning-example.git",
   "publishConfig": {
     "access": "public"
