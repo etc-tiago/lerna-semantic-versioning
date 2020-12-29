@@ -17,7 +17,7 @@ jobs:
       - run: |
           npm set progress=false
           npm set package-lock=false
-          npm set registry https://registry.npmjs.org/ && echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+          npm set registry https://registry.npmjs.org/ && echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN_PUBLISH }}" > .npmrc
           git config --global user.email "tiago@etc.digital"
           git config --global user.name "Tiago Souza"
       - run: yarn install --silent --frozen-lockfile
