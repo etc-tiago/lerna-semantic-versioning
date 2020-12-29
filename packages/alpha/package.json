@@ -1,6 +1,6 @@
 {
   "name": "npm-test-package-alpha-aaaaaaa",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": "git@github.com:etc-tiago/lerna-semantic-versioning.git",
   "publishConfig": {
     "access": "public"
